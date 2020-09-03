@@ -1,0 +1,179 @@
+/* register css */
+
+#main-div{
+
+    width: 100%;
+    height: 800px;	
+    background: linear-gradient(#8FDEE9, #85FFAD 25%);
+}
+
+
+#login-form-div{
+
+    width: 40%;
+    height: 750px;
+    margin: auto;
+    background: linear-gradient(  #ffff80,  #ffe6cc 40%);
+}
+
+#signup{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0rem 0rem 0rem 14rem;
+    display: block;
+}
+
+#first-name{
+
+    margin: 1rem 1rem 1rem 6rem;
+
+}
+
+#last-name{
+
+    margin: 1rem 1rem 1rem 0rem;
+
+}
+
+
+#email{
+    
+    margin: 1rem 1rem 1rem 6rem;
+
+}
+
+#password-sign-up{
+
+    margin: 1rem 1rem 1rem 0rem;
+    
+}
+#re-type-password-sign-up{
+    margin: 1rem 1rem 1rem 6rem;
+
+
+}
+
+#sign-up-date{
+
+    margin: 1rem 1rem 1rem 6rem;
+}
+
+
+/* base.html css */
+
+#logo{
+
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 10px 0px 1rem;
+}
+
+li a{
+
+    color: white;
+    display: inline-block;
+}
+
+#trending{
+
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px 0px 12rem;
+    font-size: 20px;
+}
+
+#explore{
+
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 10px 0px 12rem;
+
+}
+
+a:hover{
+    background-color: lightgray;
+    text-decoration: none;
+    color: white;
+}
+
+#sign-up{
+
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 5rem 0px 12rem;
+
+}
+
+
+
+#search-box{
+
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px 0px 8rem;
+    
+    
+
+}
+
+
+
+/* login css */
+
+
+.container{
+    background-color: #F2F2F2;
+}
+
+a{
+    color: black;
+}
+
+.row{
+    height: 2.2rem;
+}
+
+
+#login-form{
+    background-color: #F2F2F2;
+    width: 400px;
+    height: 500px;
+    margin: 2rem 2rem 0rem 8rem;
+}
+
+.imgcontainer{
+
+    width: 8rem;
+    height: 8rem;
+    margin: 0rem 0rem 0rem 10rem;
+}
+
+#Email{
+    display: block;
+    margin-left: 5rem;
+    position: center;
+    width: 16rem;
+    border-radius: 2px;
+    padding-left: 0.5rem;
+}
+
+#password{
+    display: block;
+    margin-left: 5rem;
+    position: center;
+    width: 16rem;
+    border-radius: 2px;
+    padding-left: 0.5rem;
+}
+
+#submit_button{
+
+    margin: 2rem 0rem 0rem 8rem;
+    border-radius: 1px;
+    width: 8rem;
+    height: 2rem;
+}

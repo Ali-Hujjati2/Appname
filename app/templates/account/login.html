@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block main %}
+
+
+      <form action="/account" method="POST">
+
+
+    <div id="login-form">
+
+      <form action="/action_page.php" method="post">
+      <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+   </div>
+
+        <label style="margin-left: 5rem;" for="uname"><b>Email</b></label>
+        <input id="Email" type="text" placeholder="Email" name="Email" required >
+
+
+        <label style="margin: 3rem 0rem 0rem 5rem;" for="Password"><b>Password</b></label>
+        <input id="password" type="password" placeholder="Password" name="Password" required>
+
+   
+   <input id="submit_button" type="Submit" value="Login">
+
+</div>
+
+</form>
+
+{% endblock %}

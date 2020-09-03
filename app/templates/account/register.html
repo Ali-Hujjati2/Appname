@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block main %}
+
+<div id="main-div">
+
+
+
+<div id="login-form-div">
+    
+
+    <p id="signup" style="padding-top:2rem;" > Sign Up</p>
+
+    <form method="POST" action="/login">
+
+
+
+
+    <input type="text" name="First-name" id="first-name" placeholder="First Name" required>
+
+    <input type="text" name="Last-name" id="last-name" placeholder="Last Name" required>
+
+    <input type="text" name="Email" id="email" placeholder="Email" required>
+
+    <input type="password" name="Password" id="password-sign-up" placeholder="Password" required minlength="8" maxlength="22" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+    <input type="password" name="Password" id="re-type-password-sign-up" placeholder="Re-type Password" required minlength="8" maxlength="22" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+    <input type="number" name="phone-number" id="phone-number-sign-up" placeholder="Phone No(Opitional)">
+
+    <input style="margin: 1rem 1rem 1rem 6rem;" type="date" name="date" id="Sign-up-date" required>
+
+    <input type="radio" id="male" name="gender" value="male" required>
+
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+
+    <label for="female">Female</label>
+
+
+     <input style="width: 10rem; height: 2rem; display: block; font-size: 18px; font-family: 'Times New Roman', Times, serif; margin: 2rem 0rem 0rem 12rem;" type="submit">
+
+
+</form>
+
+</div>
+
+
+</div>
+
+
+{% endblock %}
